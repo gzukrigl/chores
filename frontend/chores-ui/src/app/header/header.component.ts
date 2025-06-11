@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ScoreboardComponent } from '../scoreboard/scoreboard.component';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [ScoreboardComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

@@ -1,5 +1,4 @@
-  <ul>
     @for (chore of chores; track chore) {
-    <li>{{ chore.name }}</li>
+
+        <app-chore [chore]="chore"></app-chore>
     }
-  </ul>
